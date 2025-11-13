@@ -88,7 +88,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://github.com/your-github" // Replace with your actual GitHub
+                  href="https://github.com/devil357" // Replace with your actual GitHub
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

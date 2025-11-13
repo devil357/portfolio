@@ -1,76 +1,178 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# DHARAN D - Cybersecurity Portfolio
 
-<br/>
+A modern, responsive portfolio website showcasing my journey as a Cybersecurity student and enthusiast. Built with React and featuring interactive elements, this portfolio highlights my projects, skills, and professional background in the field of cybersecurity.
 
-<center>
+## 🚀 Features
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+- **Responsive Design**: Fully responsive layout that works seamlessly across all devices
+- **Interactive Elements**: Particle background animations and typewriter effects
+- **Multi-Section Layout**: Home, About, Projects, and Resume sections
+- **Cybersecurity Focus**: Dedicated to showcasing security projects and expertise
+- **Modern UI**: Clean, professional design using Bootstrap and custom CSS
+- **Contact Integration**: Direct links to email, phone, LinkedIn, and GitHub
 
-</center>
+## 🛠️ Tech Stack
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+### Frontend
+- **React** - JavaScript library for building user interfaces
+- **React Router** - Declarative routing for React
+- **Bootstrap** - CSS framework for responsive design
+- **React Bootstrap** - Bootstrap components for React
 
-## TL;DR
+### Libraries & Tools
+- **React Particles** - Interactive particle background effects
+- **Typewriter Effect** - Animated text typing effect
+- **React Icons** - Popular icon library
+- **React Parallax Tilt** - 3D tilt effects
+- **React PDF** - PDF generation and viewing
+- **Axios** - HTTP client for API requests
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+### Development Tools
+- **Create React App** - Build setup and development server
+- **ESLint** - Code linting
+- **Testing Library** - Testing utilities
 
-## Built With
+## 📋 Prerequisites
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+Before running this project, make sure you have the following installed:
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-This project was built using these technologies.
+## 🔧 Installation
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+   ```
 
-## Features
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-**📖 Multi-Page Layout**
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+4. **Open your browser**
+   
+   Navigate to `http://localhost:3000` to view the portfolio.
 
-**📱 Fully Responsive**
+## 📖 Usage
 
-## Getting Started
+### Development
+```bash
+npm start
+```
+Runs the app in development mode with hot reloading.
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+### Production Build
+```bash
+npm run build
+```
+Builds the app for production to the `build` folder.
 
-## 🛠 Installation and Setup Instructions
+### Testing
+```bash
+npm test
+```
+Launches the test runner in interactive watch mode.
 
-1. Installation: `npm install`
+## 📁 Project Structure
 
-2. In the project directory, you can run: `npm start`
+```
+portfolio/
+├── public/
+│   ├── favicon.png
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── Assets/
+│   │   ├── Projects/
+│   │   ├── TechIcons/
+│   │   └── ... (images and assets)
+│   ├── components/
+│   │   ├── About/
+│   │   │   ├── About.js
+│   │   │   ├── AboutCard.js
+│   │   │   ├── Github.js
+│   │   │   ├── Techstack.js
+│   │   │   └── Toolstack.js
+│   │   ├── Home/
+│   │   │   ├── Home.js
+│   │   │   ├── Home2.js
+│   │   │   └── Type.js
+│   │   ├── Projects/
+│   │   │   ├── ProjectCards.js
+│   │   │   └── Projects.js
+│   │   ├── Resume/
+│   │   │   └── ResumeNew.js
+│   │   ├── Footer.js
+│   │   ├── Navbar.js
+│   │   ├── Particle.js
+│   │   ├── Pre.js
+│   │   └── ScrollToTop.js
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+│   └── style.css
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## 🎯 Key Sections
 
-## Usage Instructions
+### Home
+- Personal introduction with animated typewriter effect
+- Professional titles and contact information
+- Social media links
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+### About
+- Personal background and education details
+- Professional skillset with technology icons
+- Tools and software proficiency
+- GitHub contribution calendar
 
-### Show your support
+### Projects
+- **Major Project**: APT Detection using Machine Learning
+- **Mini Projects**: Network Mapping, Smart Surveillance
+- **Training Projects**: Ethical Hacking, IoT Security, Data Analysis
 
-Give a ⭐ if you like this website!
+### Resume
+- Downloadable PDF resume
+- Professional experience and education
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+**DHARAN D**
+- **Email**: dharandharan576@gmail.com
+- **Phone**: +91 87787 58710
+- **Location**: Dharmapuri, India
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin)
+- **GitHub**: [Your GitHub Profile](https://github.com/your-github)
+
+---
+
+⭐ **Feel free to star this repo if you find it helpful!**

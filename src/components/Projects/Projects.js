@@ -31,8 +31,8 @@ function Projects() {
               isBlog={false}
               title="Advanced Persistent Threat (APT) Detection Using Machine Learning and Network Flow Analysis"
               description="Developed a comprehensive APT detection system that combines machine learning algorithms with network flow analysis to identify sophisticated cyber threats. The system analyzes network traffic patterns, detects anomalies, and uses classification models to identify potential APT activities in real-time, providing early warning of targeted attacks."
-              ghLink="https://github.com/your-username/apt-detection-ml"
-              demoLink="https://github.com/your-username/apt-detection-ml"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
         </Row>
@@ -47,8 +47,8 @@ function Projects() {
               isBlog={false}
               title="Network Mapping Analyzer"
               description="A comprehensive network discovery and mapping tool that scans and visualizes network topology. Identifies active devices, open ports, services, and network relationships. Provides detailed reports on network structure and potential security vulnerabilities for better network management and security assessment."
-              ghLink="https://github.com/your-username/network-mapping-analyzer"
-              demoLink="https://github.com/your-username/network-mapping-analyzer"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
 
@@ -58,8 +58,8 @@ function Projects() {
               isBlog={false}
               title="Smart Surveillance System using PIR Sensor"
               description="An IoT-based intelligent surveillance system that uses PIR (Passive Infrared) sensors for motion detection. The system automatically triggers alerts and recordings when motion is detected, providing efficient security monitoring with low power consumption. Includes remote monitoring capabilities and real-time alert notifications."
-              ghLink="https://github.com/your-username/smart-surveillance-pir"
-              demoLink="https://github.com/your-username/smart-surveillance-pir"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
         </Row>
@@ -74,8 +74,8 @@ function Projects() {
               isBlog={false}
               title="Ethical Hacking Lab Exercises"
               description="Hands-on penetration testing exercises from Novitech R&D training. Practiced vulnerability assessment, exploitation techniques, and security auditing using industry-standard tools in controlled lab environments."
-              ghLink="https://github.com/your-username/ethical-hacking-labs"
-              demoLink="https://github.com/your-username/ethical-hacking-labs"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
 
@@ -85,8 +85,8 @@ function Projects() {
               isBlog={false}
               title="IoT Security Analysis"
               description="Security assessment of IoT devices and systems, analyzing communication protocols, device vulnerabilities, and implementing security controls for connected devices."
-              ghLink="https://github.com/your-username/iot-security-analysis"
-              demoLink="https://github.com/your-username/iot-security-analysis"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
 
@@ -96,8 +96,8 @@ function Projects() {
               isBlog={false}
               title="Security Data Analysis with Python"
               description="Python-based security data analysis from Emglitz Technology internship. Developed scripts for log analysis, threat pattern detection, and security metrics visualization."
-              ghLink="https://github.com/your-username/security-data-analysis"
-              demoLink="https://github.com/your-username/security-data-analysis"
+              ghLink="https://github.com/devil357"
+              demoLink="https://github.com/devil357"
             />
           </Col>
         </Row>
